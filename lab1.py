@@ -1,18 +1,7 @@
 # 1825622 Nyarko Prince Edwin
 
 def find_max(arr):
-    """
-    Find the maximum element in the given array.
 
-    Args:
-        arr (list): A list of numbers.
-
-    Returns:
-        float or int: The maximum element in the array.
-        str: If the array is empty, returns "An array with numbers is needed".
-
-    Time Complexity: O(n), where n is the number of elements in the array.
-    """
     if not arr:
         return "An array with numbers is needed"
     else:
@@ -24,19 +13,7 @@ def find_max(arr):
 
 
 def count_element(arr, target):
-    """
-    Count the occurrences of a target element in the given array.
-
-    Args:
-        arr (list): A list of numbers.
-        target (int or float): The element to count in the array.
-
-    Returns:
-        int: The count of the target element in the array.
-        str: If the array is empty, returns "An array with numbers is needed".
-
-    Time Complexity: O(n), where n is the number of elements in the array.
-    """
+    
     if not arr:
         return "An array with numbers is needed"
     else:
